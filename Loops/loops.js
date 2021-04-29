@@ -18,3 +18,18 @@ for(var student of students)
 {
     saluteStudents(student);
 }
+
+
+/* WHILE */
+
+var students = ['Maria', 'Sergio', 'Rosa', 'Daniel']
+function saluteStudents(student) {
+    console.log(`Hola ${student}`);
+}
+
+whiile(students.length > 0)
+{
+    console.log(students);
+    var student = students.shift();
+    saluteStudents(student);
+}
