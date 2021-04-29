@@ -27,7 +27,7 @@ function saluteStudents(student) {
     console.log(`Hola ${student}`);
 }
 
-whiile(students.length > 0)
+while(students.length > 0)
 {
     console.log(students);
     var student = students.shift();
