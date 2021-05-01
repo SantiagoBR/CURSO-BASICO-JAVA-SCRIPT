@@ -54,3 +54,9 @@ var cheapArticles = articles.some
         return article.cost <= 700;
     }
 )
+
+//Método splice()
+articles.splice(2,1);
+
+//Método splice() para editar
+articles.splice(1,1, 'Television')
